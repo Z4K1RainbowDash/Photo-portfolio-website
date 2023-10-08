@@ -1,0 +1,56 @@
+[
+  {
+    "mainImage": "assets/projects/First project/main.webp",
+	"title": "First title",
+    "images": [
+      "assets/projects/First project/1.webp",
+      "assets/projects/First project/2.webp",
+	  "assets/projects/First project/3.webp",
+	  "assets/projects/First project/4.webp"
+    ]
+  },
+  {
+    "mainImage": "assets/projects/Second project/main.webp",
+	"title": "Second title",
+    "images": [
+      "assets/projects/Second project/1.webp",
+      "assets/projects/Second project/2.webp",
+	  "assets/projects/Second project/3.webp",
+	  "assets/projects/Second project/4.webp",
+	  "assets/projects/Second project/5.webp"
+    ]
+  },
+  {
+    "mainImage": "assets/projects/Third project/main.webp",
+	"title": "Third title",
+    "images": [
+      "assets/projects/Third project/1.webp",
+      "assets/projects/Third project/2.webp",
+	  "assets/projects/Third project/3.webp",
+	  "assets/projects/Third project/4.webp",
+	  "assets/projects/Third project/5.webp"
+    ]
+  },
+  {
+    "mainImage": "assets/projects/Fourth project/main.webp",
+	"title": "Fourth title",
+    "images": [
+      "assets/projects/Fourth project/1.webp",
+      "assets/projects/Fourth project/2.webp",
+	  "assets/projects/Fourth project/3.webp",
+	  "assets/projects/Fourth project/4.webp",
+	  "assets/projects/Fourth project/5.webp"
+    ]
+  },
+  {
+    "mainImage": "assets/projects/N-th project/main.webp",
+	"title": "N-th title",
+    "images": [
+      "assets/projects/N-th project/1.webp",
+      "assets/projects/N-th project/2.webp",
+	  "assets/projects/N-th project/3.webp",
+	  "assets/projects/N-th project/4.webp",
+	  "assets/projects/N-th project/5.webp"
+    ]
+  } 
+]
