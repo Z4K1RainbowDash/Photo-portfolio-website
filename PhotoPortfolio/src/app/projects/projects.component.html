@@ -1,0 +1,27 @@
+<div class="gallery">
+
+  <ng-container *ngIf="!selectedProject">
+    <div *ngFor="let project of projects" class="gallery-item" (click)="selectProject(project)">
+      <img [src]="project.mainImage" alt="Project image">
+      <div class="overlay-text">
+        {{project.title}}
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="selectedProject">
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="deselectProject()">
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+      <span class="title-spacer">{{selectedProject.title}}</span>
+    </mat-toolbar>
+
+
+    <div *ngFor="let image of selectedProject.images" class="gallery-item">
+      <img [src]="image" alt="Project image">
+    </div>
+
+  </ng-container>
+</div>
+
