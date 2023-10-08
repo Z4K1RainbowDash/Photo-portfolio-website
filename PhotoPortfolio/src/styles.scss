@@ -35,5 +35,22 @@ $PhotoPortfolio-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column; // Vertikális irányú flexbox
+  background-color: #2f2f2f;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+
+}
+
+app-footer {
+  flex-shrink: 0; // Biztosítja, hogy a footer nem zsugorodik össze, ha kevés a tartalom
+}
