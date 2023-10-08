@@ -1,0 +1,49 @@
+
+.content{
+  margin: 50px;
+  background-color: #2f2f2f;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  min-height: 77vh;
+  background-color: #2f2f2f;
+  color:white;
+  width: 100%;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.div1{
+  margin: 70px;
+  transform: rotate(-10deg);
+  transition: transform 0.5s ease;
+}
+
+.div1:hover{
+  transform: rotate(0deg);
+  transition: transform 0.5s ease;
+}
+
+.div1 img{
+  width: 100%;
+}
+
+
+
+
+.about-me-box{
+  background: #413f4d;
+  padding: 10px;
+  text-align: center;
+  font-size:2vw;
+}
+
+.about-me-box p{
+  padding: 0px;
+}
