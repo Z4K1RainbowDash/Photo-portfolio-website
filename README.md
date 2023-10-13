@@ -11,7 +11,7 @@ Welcome to the Photo Portfolio Template! Crafted with Angular, this template off
 
 1. **Clone the Repository**
 ```
-git clone [Your Repository Link]
+git clone https://github.com/Z4K1RainbowDash/Photo-portfolio-website.git
 ```
 
 2. **Move to Directory & Install Dependencies**
