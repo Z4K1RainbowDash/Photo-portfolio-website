@@ -11,13 +11,6 @@ export class ProjectsComponent {
 
   selectedProject?: Project;
   projects: Project[] = [];
-  projectImages = Array<string>(
-    'assets/projects/First project/main.webp',
-    'assets/projects/Second project/main.webp',
-    'assets/projects/Third project/main.webp',
-    'assets/projects/Fourth project/main.webp',
-    'assets/projects/N-th project/main.webp',
-  );
   private http: HttpClient;
 
   constructor(http: HttpClient) {
